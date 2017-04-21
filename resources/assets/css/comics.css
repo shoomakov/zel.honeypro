@@ -1,0 +1,58 @@
+/* You can change the color of box, shadow and font */
+/* General styles */
+.comics-thought {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;;
+  padding: 40px;
+  background-color: #fff;
+  /*margin: 80px 80px 200px;*/
+  -webkit-filter: drop-shadow(0 4px 0 #f7931e);
+  filter: drop-shadow(0 4px 0 #f7931e);
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  -webkit-transition: 2s;
+  transition: 2s;
+  z-index: 2;
+}
+.comics-thought p {
+  color: #000;
+  font-size: 28px;
+  line-height: 28px;
+}
+.comics-thought:after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+.comics-thought:hover {
+  /*top: -30px;*/
+  -webkit-filter: drop-shadow(0 10px 0 #f7931e);
+  filter: drop-shadow(0 10px 0 #f7931e);
+}
+
+/* Styles for dialog box */
+/* Styles for thought box */
+.comics-thought {
+  width: 30%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: -20px -50px 0 -20px #fff, 40px -45px 0 -40px #fff;
+  -webkit-box-shadow: -20px -50px 0 -20px #fff, 40px -45px 0 -40px #fff;
+  box-shadow: -20px -50px 0 -20px #fff, 40px -45px 0 -40px #fff;
+}
+.comics-thought:after {
+  width: 150px;
+  height: 150px;
+  right: -30px;
+  bottom: -10px;
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: -140px 0px 0 #fff, -70px 0px 0 -10px #fff, 90px 32px 0 -60px #fff, 120px 51px 0 -65px #fff, 140px 61px 0 -70px #fff;
+  -webkit-box-shadow: -140px 0px 0 #fff, -70px 0px 0 -10px #fff, 90px 32px 0 -60px #fff, 120px 51px 0 -65px #fff, 140px 61px 0 -70px #fff;
+  box-shadow: -140px 0px 0 #fff, -70px 0px 0 -10px #fff, 90px 32px 0 -60px #fff, 120px 51px 0 -65px #fff, 140px 61px 0 -70px #fff;
+}

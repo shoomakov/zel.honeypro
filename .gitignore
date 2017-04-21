@@ -1,0 +1,13 @@
+/node_modules
+/public/storage
+/public/hot
+/public/js
+/public/css
+/storage/*.key
+/storage/newslatter.txt
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.git
