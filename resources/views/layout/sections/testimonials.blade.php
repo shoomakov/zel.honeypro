@@ -9,12 +9,17 @@
       <div class="row">
         <div class="span4">
           <div class="testimonial">
-            <p>"I've worked too hard and too long to let anything stand in the way of my goals. I will not let my teammates down and I will not let myself down."</p>
+            <p>
+              "А я Ваш постоянный покупатель мёда с лета 2016г, мы раньше столько мёда никогда не ели,
+              а сейчас я даже кофе с мёдом пью, и муж в восторге от наивкуснейшего мёда ,
+               и за сезон осень  зима не разу не болела простудой, и даже не могу определится какой вкусней,
+               весь вкусный.И теперь всем своим друзьям и знакомым Ваш телефон  даю,
+               что бы кушали настоящий и вкусный Мед !!!!!!!!Спасибо Вам !!!"</p>
             <div class="whopic">
               <div class="arrow"></div>
-              <img src="images/Client1.png" class="centered" alt="client 1" />
-              <strong>John Doe
-                <small>Client</small>
+              <img src="images/clients/svetlana.jpg" class="centered" alt="client 1" />
+              <strong>Светлана Власова
+                <small>Клиент</small>
               </strong>
             </div>
           </div>
@@ -42,20 +47,27 @@
         </div>
         <div class="span4">
           <div class="testimonial">
-            <p>цитата</p>
+            <p>
+              Брала мед разнотравье в конце августа - очень вкусный!
+              Сразу все не позволила уничтожить - приберегла к зиме. А зимой он стал еще лучше!
+              Густой, насыщенный янтарный цвет. Такой манящий аромат, что просто слюни текли.
+              Сегодня взяла мед с донником. Как только открыла крышку я почувствовала запах лета,
+              поле, цветы..это не передать. А вкус ...ням..ням ели остановилась. Такой настоящий мягкий как масло!
+              Спасибо за вкусный медок!
+            </p>
             <div class="whopic">
               <div class="arrow"></div>
-              <img src="images/Client3.png" class="centered" alt="client 3" />
-              <strong>John Doe
-                <small>Client</small>
+              <img src="images/clients/oksana.jpg" class="centered" alt="client 3" />
+              <strong>Оксана Романова
+                <small>Клиент</small>
               </strong>
             </div>
           </div>
         </div>
       </div>
-      <p class="testimonial-text">
+      {{-- <p class="testimonial-text">
         "цитата"
-      </p>
+      </p> --}}
     </div>
   </div>
 </div>
